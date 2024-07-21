@@ -6,7 +6,7 @@ const AlbumUrl = "https://photos.app.goo.gl/dEsn2jYtoUxdpLgM7";
 
 function App() {
   return (
-    <div className="flex min-h-screen min-w-full flex-col items-center justify-center bg-cover pb-24">
+    <div className="fixed flex min-h-screen min-w-full flex-col items-center justify-center bg-cover pb-24">
       <div className="absolute top-0 flex-col items-center justify-center pt-8">
         <img src={ak} className="m-auto max-w-12 p-3" />
         <div className="font-playfair font-semibold tracking-widest">
