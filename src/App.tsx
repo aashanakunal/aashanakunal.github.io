@@ -21,7 +21,7 @@ function App() {
             window.open(AlbumUrl, "_blank");
           }}
         >
-          Wedding Album
+          View Album
         </Button>
       </div>
     </div>
