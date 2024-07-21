@@ -14,7 +14,7 @@ function App() {
         </div>
       </div>
       <img src={aashanakunal} className="h-auto max-w-lg" />
-      <div className="flex max-w-sm rounded-xl bg-gradient-to-tr from-yellow-700 to-blue-300 p-0.5 shadow-lg">
+      <div className="mb-12 flex max-w-sm rounded-xl bg-gradient-to-tr from-yellow-700 to-blue-300 p-0.5 opacity-80 shadow-lg">
         <Button
           className="isolate bg-primary/30 uppercase tracking-widest shadow-lg ring-1 ring-black/5"
           onClick={() => {
