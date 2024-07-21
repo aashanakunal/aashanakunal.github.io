@@ -9,19 +9,19 @@ function App() {
     <div className="flex min-h-screen min-w-full flex-col items-center justify-center bg-cover pb-24">
       <div className="absolute top-0 flex-col items-center justify-center pt-8">
         <img src={ak} className="m-auto max-w-12 p-3" />
-        <div className="font-playfair font-semibold tracking-wider">
+        <div className="font-playfair font-semibold tracking-widest">
           12 · 09 · 23
         </div>
       </div>
       <img src={aashanakunal} className="h-auto max-w-lg" />
-      <div className="flex max-w-sm rounded-xl bg-gradient-to-tr from-yellow-800 to-blue-300 p-0.5 shadow-lg">
+      <div className="flex max-w-sm rounded-xl bg-gradient-to-tr from-yellow-700 to-blue-300 p-0.5 shadow-lg">
         <Button
-          className="isolate bg-primary/30 tracking-widest shadow-lg ring-1 ring-black/5"
+          className="isolate bg-primary/30 uppercase tracking-widest shadow-lg ring-1 ring-black/5"
           onClick={() => {
             window.open(AlbumUrl, "_blank");
           }}
         >
-          View Album
+          Wedding Album
         </Button>
       </div>
     </div>
